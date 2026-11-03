@@ -127,9 +127,9 @@ py simulation.py --help
 | --- | --- |
 | `simulation.py` | Solvers, command-line options, and visualization functions |
 | `requirements.txt` | Python dependencies |
-| `assets/spiral.gif` | Fourier animation shown at the top of this page |
-| `assets/fourier_snapshots.png` | Four Fourier U-field snapshots |
-| `assets/chebyshev_snapshots.png` | Four Chebyshev U-field snapshots |
+| `spiral.gif` | Fourier animation shown at the top of this page |
+| `fourier_snapshots.png` | Four Fourier U-field snapshots |
+| `chebyshev_snapshots.png` | Four Chebyshev U-field snapshots |
 | `assets/run_summary.json` | Parameters, grid sizes, run times, and basic solver diagnostics |
 
 ## Validation and scope
