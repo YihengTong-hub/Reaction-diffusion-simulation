@@ -46,7 +46,7 @@ U(x,y,0)=\tanh(r)\cos(\theta-r),\qquad
 V(x,y,0)=\tanh(r)\sin(\theta-r),
 $$
 
-with $r=\sqrt{x^2+y^2}$ and $\theta=\operatorname{atan2}(y,x)$.
+Here, $r=\sqrt{x^2+y^2}$ and the angle theta is computed as `atan2(y, x)`.
 
 ## Numerical methods
 
