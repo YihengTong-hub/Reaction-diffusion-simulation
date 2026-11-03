@@ -1,0 +1,23 @@
+{
+  "comparison": "Original AMATH HW6.py versus refactored solvers at t=0, 0.5, ..., 4.0",
+  "passed": true,
+  "absolute_difference_threshold": 1e-08,
+  "differences": {
+    "fourier_u_max_absolute_difference": 8.382183835919932e-15,
+    "fourier_v_max_absolute_difference": 8.243405957841787e-15,
+    "chebyshev_u_max_absolute_difference": 1.2101430968414206e-14,
+    "chebyshev_v_max_absolute_difference": 1.2101430968414206e-14
+  },
+  "chebyshev_first_derivative_checks": {
+    "constant_max_absolute_error": 1.4210854715202004e-14,
+    "cubic_max_absolute_error": 1.3322676295501878e-15
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "pillow": "12.3.0"
+  },
+  "scope": "Regression agreement with the original script and two checks of the unmodified differentiation matrix; not a convergence study or validation of the boundary conditions."
+}

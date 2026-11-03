@@ -1,0 +1,53 @@
+{
+  "parameters": {
+    "duration": 4.0,
+    "frames": 41,
+    "diffusion": 0.1,
+    "beta": 1.0,
+    "rtol": 0.001,
+    "atol": 1e-06,
+    "domain_length": 20.0
+  },
+  "runs": [
+    {
+      "method": "Fourier",
+      "grid_shape": [
+        64,
+        64
+      ],
+      "saved_frames": 41,
+      "elapsed_seconds": 0.089304,
+      "rhs_evaluations": 194,
+      "finite_fields": true,
+      "max_imaginary_component": 7.280303475510908e-16,
+      "final_u_range": [
+        -0.9767539181266995,
+        0.9817061571733694
+      ],
+      "final_v_range": [
+        -0.976753891068777,
+        0.9817062348708933
+      ]
+    },
+    {
+      "method": "Chebyshev",
+      "grid_shape": [
+        31,
+        31
+      ],
+      "saved_frames": 41,
+      "elapsed_seconds": 0.009337,
+      "rhs_evaluations": 140,
+      "finite_fields": true,
+      "max_imaginary_component": 0.0,
+      "final_u_range": [
+        -1.100977643606994,
+        1.1009776436069976
+      ],
+      "final_v_range": [
+        -1.1009776436069951,
+        1.1009776436069965
+      ]
+    }
+  ]
+}
