@@ -67,11 +67,11 @@ The two solvers use different grids and boundary treatments. Their plots are sep
 
 **Fourier method — U field**
 
-![Fourier snapshots at four simulation times](assets/fourier_snapshots.png)
+![Fourier snapshots at four simulation times](fourier_snapshots.png)
 
 **Chebyshev method — U field**
 
-![Chebyshev snapshots at four simulation times](assets/chebyshev_snapshots.png)
+![Chebyshev snapshots at four simulation times](chebyshev_snapshots.png)
 
 All plots use the same color limits, from -1.2 to 1.2. Both U and V are computed; the figures display U. The GIF shows 41 saved states over simulation time 0 to 4, played at 12 frames per second.
 
